@@ -69,6 +69,8 @@ services:
       - OPENCLAW_GATEWAY_TOKEN=changeme
       # Optional: password auth instead of token
       - OPENCLAW_GATEWAY_PASSWORD=
+      # Telegram bot token from @BotFather
+      - TELEGRAM_BOT_TOKEN=${TELEGRAM_BOT_TOKEN}
       # GitHub PAT: enables agent persona (SOUL.md) + git operations
       - GITHUB_PAT_TOKEN=${GITHUB_PAT_TOKEN}
       # Twitter/X: enables tweeting + reading mentions as @voxxelle_
